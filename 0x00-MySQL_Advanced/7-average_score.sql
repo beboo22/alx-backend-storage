@@ -1,0 +1,7 @@
+DELIMITER$$
+CREATE PROCEDURE ComputeAverageScoreForUser(IN user_id INT)
+BEGIN
+    DECLERE AVG_SC FLOAT;
+    SET AVG_SC = 
+END$$
+DELIMITER ;
