@@ -1,3 +1,4 @@
+-- creates a trigger that resets the attribute valid_email
 DELIMITER $$
 CREATE TRIGGER TEG1
 BEFORE UPDATE ON users
