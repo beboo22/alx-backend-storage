@@ -1,2 +1,2 @@
 // Lists all matches
-db.school.insert([{name : "Holberton school"}]);
+db.school.insertOne([{name : "Holberton school"}]);
