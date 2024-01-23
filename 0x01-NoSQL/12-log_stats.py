@@ -8,7 +8,7 @@ def Print_Nginx(nginx_collection):
     Nlog = nginx_collection.count_documents({})
     print("{} logs".format(Nlog))
     method = ["GET", "POST", "PUT", "PATCH", "DELETE"]
-    print("Methods:\n")
+    print("Methods:")
     for m in method:
         methods = len(list(nginx_collection.find({'method': m})))
         print("\tmethod {}: {}".format(m, methods))
